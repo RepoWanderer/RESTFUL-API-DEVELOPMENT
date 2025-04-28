@@ -1,4 +1,5 @@
-# RESTFUL-API-DEVELOPMENT USING DJANGO
+# Inventory management system using Django RESTFUL API
+
 How to setup:
 - install the requirements
 - run makemigrations
@@ -8,7 +9,7 @@ How to setup:
 Load initial data:
 python manage.py loaddata db.json
 
-# RESTful Structure:
+RESTful Structure:
     products -> GET all products
     products/:id -> GET single product
     products -> POST add a single product
@@ -27,8 +28,5 @@ python manage.py loaddata db.json
     expired -> GET all expired batches
     expiring -> GET all expiring batches
     fresh -> GET all fresh batches
-# COTECH IT SOLUTIONS
-Deepak Kumar Sahu
-*INTERN ID: CT4MKJU
-SOFTWARE DEVELOPER
-4 MONTHS
+    
+   
